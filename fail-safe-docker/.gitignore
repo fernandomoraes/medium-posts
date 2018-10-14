@@ -1,2 +1,3 @@
 .idea
 fail-safe-docker.iml
+target/
