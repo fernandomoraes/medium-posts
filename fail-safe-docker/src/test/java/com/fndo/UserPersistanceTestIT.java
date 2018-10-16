@@ -1,4 +1,4 @@
-package com.fndomoraes;
+package com.fndo;
 
 import org.junit.AfterClass;
 import org.junit.Before;

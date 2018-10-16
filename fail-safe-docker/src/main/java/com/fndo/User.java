@@ -1,4 +1,4 @@
-package com.fndomoraes;
+package com.fndo;
 
 import javax.persistence.*;
 
