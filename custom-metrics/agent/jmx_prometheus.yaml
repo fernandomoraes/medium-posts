@@ -1,0 +1,11 @@
+---
+startDelaySecs: 120
+ssl: false
+lowercaseOutputName: true
+lowercaseOutputLabelNames: true
+attrNameSnakeCase: true
+whitelistObjectNames: ["com.moraes.metrics:*"]
+rules:
+  - pattern: com.moraes.metrics<type=basic, name=(.+)><>(\w+)
+    name: my_custom_metrics_$2
+    attrNameSnakeCase: true
