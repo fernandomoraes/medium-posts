@@ -8,4 +8,5 @@ whitelistObjectNames: ["com.moraes.metrics:*"]
 rules:
   - pattern: com.moraes.metrics<type=basic, name=(.+)><>(\w+)
     name: my_custom_metrics_$2
+    help: My custom metrics $2
     attrNameSnakeCase: true
